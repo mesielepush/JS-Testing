@@ -9,9 +9,16 @@ const calculator = {
   multiply: (a, b) => a * b,
 };
 
+const analize = (array) => ({
+  average: array.reduce((t, n) => t + n) / array.length,
+  min: Math.min(...array),
+  max: Math.max(...array),
+  length: array.length,
+});
+
 module.exports = {
     capitalize,
     stringReverse,
     calculator,
-    
+    analize,
   };

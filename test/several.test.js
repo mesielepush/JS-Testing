@@ -1,4 +1,4 @@
-const {capitalize, stringReverse, calculator} = require('../src/several.js');
+const {capitalize, stringReverse, calculator, analize} = require('../src/several.js');
 
 
   test('Capitalize string', () => {
@@ -24,4 +24,10 @@ const {capitalize, stringReverse, calculator} = require('../src/several.js');
   test('It divides two numbers', () => {
     expect(calculator.divide(32, 16)).toBe(2);
   });
-  
+  test('check avg, min, max and len ', () => {
+    const analysis = analize([5, 5, 5, 5, 10, 3]);
+    expect(analysis.average).toBe(5.5);
+    expect(analysis.max).toBe(10);
+    expect(analysis.min).toBe(3);
+    expect(analysis.length).toBe(6);
+  });
