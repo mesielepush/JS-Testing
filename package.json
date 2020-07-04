@@ -6,10 +6,14 @@
   "repository": "https://github.com/mesielepush/JS-Testing.git",
   "author": "Jonathan Marin",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "babel-jest": "^26.1.0",
-    "i": "^0.3.6"
+    "i": "^0.3.6",
+    "jest": "^26.1.0"
   }
 }
