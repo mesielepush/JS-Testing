@@ -17,8 +17,8 @@ const analize = (array) => ({
 });
 
 module.exports = {
-    capitalize,
-    stringReverse,
-    calculator,
-    analize,
-  };
+  capitalize,
+  stringReverse,
+  calculator,
+  analize,
+};
