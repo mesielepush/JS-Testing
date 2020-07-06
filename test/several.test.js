@@ -2,7 +2,6 @@ const {
   capitalize, stringReverse, calculator, analize,
 } = require('../src/several.js');
 
-
 test('Capitalize string', () => {
   expect(capitalize('popo')).toBe('Popo');
 });
